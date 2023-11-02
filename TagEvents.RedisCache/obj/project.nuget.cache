@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "NPL04zeVK3jxgkW6+FPCFDt0ShwkQGlDAEPf7BDTQm8SJBs+0CRVMf0gihfjhh5hVJOI/P2wEjKNdP63fq2pOw==",
+  "dgSpecHash": "+P7iJV6Rxql2NIDtMvQjNRFtrO084/D9Dk5pq4I1rgBh/HIcrD5+UZ2moLerC6M955KolV4jtQo4X6uV7Lj/4Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj",
+  "projectFilePath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hpadmin\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hpadmin\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\2.0.0\\microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\hpadmin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\hpadmin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\hpadmin\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",

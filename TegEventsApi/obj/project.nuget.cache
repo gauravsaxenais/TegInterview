@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/CncmBMXdPPaGMqqHtHWPgG7qeXdi6zIK8+2FeRTQjo2RNMZLF9UXHJwhXq00IWNU5GAkVGBM8WaqZeK464UMw==",
+  "dgSpecHash": "QbuVz207q6CA8wlEqNxgK+GtmhRXFpFk8aJ3LMaXBjuDh8RooNYCRZ5xuCkE/iWInqfqhfXTJBSlIj3L2qTFQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegEventsApi\\TegEventsApi.csproj",
+  "projectFilePath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TegEventsApi\\TegEventsApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hpadmin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hpadmin\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

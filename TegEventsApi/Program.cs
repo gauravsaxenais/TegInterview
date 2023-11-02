@@ -17,6 +17,7 @@ namespace TegEventsApi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+            builder.Services.AddRedisCache();
             builder.Services.AddAutoMapper(typeof(MappingProfile));
             builder.Services.AddTransient<IBlobManager<Root>, BlobManager<Root>>();
             builder.Services.AddScoped<IEventQueryManager, EventQueryManager>();

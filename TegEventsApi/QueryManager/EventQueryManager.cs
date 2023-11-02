@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using TagEvents.RedisCache;
 using TegEvents.Framework;
 using TegEventsApi.Entities;
 using TegEventsApi.Models;
@@ -7,8 +8,10 @@ namespace TegEventsApi.QueryManager
 {
     public class EventQueryManager : QueryManager<Event, EventReadModel>, IEventQueryManager
     {
-        public EventQueryManager(ILogger<QueryManager<Event, EventReadModel>> logger, IMapper mapper) : base(logger, mapper)
+        private readonly IRedisCacheService _redisCacheService;
+        public EventQueryManager(IRedisCacheService redisCacheService, ILogger<QueryManager<Event, EventReadModel>> logger, IMapper mapper) : base(logger, mapper)
         {
+            _redisCacheService = redisCacheService;
         }
 
         public async Task<IEnumerable<EventReadModel>> GetEventsByStartDate(Func<Task<Root>> getlistOfEvents, DateTimeOffset startDate)
@@ -21,10 +24,22 @@ namespace TegEventsApi.QueryManager
             return await GetByPredicateAsync(async () => await GetEvents(getlistOfEvents), x => x.VenueId == venueId);
         }
 
-        private static async Task<List<Event>> GetEvents(Func<Task<Root>> getlistOfEvents)
+        private async Task<List<Event>?> GetEvents(Func<Task<Root>> GetlistOfEvents)
         {
-            var events = await getlistOfEvents();
-            return events.Events;
+            Root? root;
+            //try
+            //{
+                root = await GetlistOfEvents();
+                //await _redisCacheService.SetAsync("root", root);
+            //}
+            //catch (Exception)
+            //{
+            //    // if json url fails, see if data
+            //    // is stored in cache
+            //    root = await _redisCacheService.GetAsync<Root>("root");
+            //}
+
+            return root?.Events;
         }
     }
 }

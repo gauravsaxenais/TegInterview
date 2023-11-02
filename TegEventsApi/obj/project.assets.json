@@ -1907,6 +1907,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
           "StackExchange.Redis": "2.7.4"
         },
         "compile": {
@@ -6195,11 +6196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegEventsApi\\TegEventsApi.csproj",
+      "projectUniqueName": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TegEventsApi\\TegEventsApi.csproj",
       "projectName": "TegEventsApi",
-      "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegEventsApi\\TegEventsApi.csproj",
+      "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TegEventsApi\\TegEventsApi.csproj",
       "packagesPath": "C:\\Users\\hpadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegEventsApi\\obj\\",
+      "outputPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TegEventsApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6221,11 +6222,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.Framework\\TegEvents.Framework.csproj": {
-              "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.Framework\\TegEvents.Framework.csproj"
+            "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.Framework\\TegEvents.Framework.csproj": {
+              "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.Framework\\TegEvents.Framework.csproj"
             },
-            "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj": {
-              "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj"
+            "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj": {
+              "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj"
             }
           }
         }

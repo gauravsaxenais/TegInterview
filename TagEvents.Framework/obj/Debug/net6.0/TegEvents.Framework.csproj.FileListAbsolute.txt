@@ -10,3 +10,15 @@ C:\Users\hpadmin\Desktop\TegEvents\TagEvents.Framework\obj\Debug\net6.0\TegEvent
 C:\Users\hpadmin\Desktop\TegEvents\TagEvents.Framework\obj\Debug\net6.0\refint\TegEvents.Framework.dll
 C:\Users\hpadmin\Desktop\TegEvents\TagEvents.Framework\obj\Debug\net6.0\TegEvents.Framework.pdb
 C:\Users\hpadmin\Desktop\TegEvents\TagEvents.Framework\obj\Debug\net6.0\ref\TegEvents.Framework.dll
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\bin\Debug\net6.0\TegEvents.Framework.deps.json
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\bin\Debug\net6.0\TegEvents.Framework.dll
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\bin\Debug\net6.0\TegEvents.Framework.pdb
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\TegEvents.Framework.csproj.AssemblyReference.cache
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\TegEvents.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\TegEvents.Framework.AssemblyInfoInputs.cache
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\TegEvents.Framework.AssemblyInfo.cs
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\TegEvents.Framework.csproj.CoreCompileInputs.cache
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\TegEvents.Framework.dll
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\refint\TegEvents.Framework.dll
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\TegEvents.Framework.pdb
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.Framework\obj\Debug\net6.0\ref\TegEvents.Framework.dll

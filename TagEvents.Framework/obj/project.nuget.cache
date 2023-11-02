@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dkaYR+Fbi8I4fpliqzxNJOzs1tzjy5mF3SnyjOKLd3cBVBo7o4DpnnG1vnj+tWNOkcZ2tVUKjCcDmc7oP/aNVw==",
+  "dgSpecHash": "FAkPHzz/AtqL+Gwl0EeAkx6ZDWaCGB/55xSOk0pxG7z8f7ul4pdLvxTM1qvqZnoMIZlbe40a0mZ2+LcnYc9x7A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.Framework\\TegEvents.Framework.csproj",
+  "projectFilePath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.Framework\\TegEvents.Framework.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hpadmin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\hpadmin\\.nuget\\packages\\awssdk.core\\3.7.204.10\\awssdk.core.3.7.204.10.nupkg.sha512",

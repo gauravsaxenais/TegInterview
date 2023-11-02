@@ -21,6 +21,22 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "2.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
@@ -146,6 +162,19 @@
         "microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
         "microsoft.extensions.caching.abstractions.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/2.0.0": {
+      "sha512": "rHFrXqMIvQNq51H8RYTO4IWmDOYh8NUzyqGlh0xHWTP6XYnKk7Ryinys2uDs+Vu88b3AMlM3gBBSs78m6OQpYQ==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.abstractions/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.xml",
+        "microsoft.extensions.configuration.abstractions.2.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
     "Microsoft.Extensions.Logging.Abstractions/6.0.0": {
@@ -326,6 +355,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "Microsoft.Extensions.Caching.Abstractions >= 7.0.0",
+      "Microsoft.Extensions.Configuration.Abstractions >= 2.0.0",
       "StackExchange.Redis >= 2.7.4"
     ]
   },
@@ -336,11 +366,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj",
+      "projectUniqueName": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj",
       "projectName": "TagEvents.RedisCache",
-      "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj",
+      "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj",
       "packagesPath": "C:\\Users\\hpadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.RedisCache\\obj\\",
+      "outputPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.RedisCache\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -377,6 +407,10 @@
           "Microsoft.Extensions.Caching.Abstractions": {
             "target": "Package",
             "version": "[7.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.Abstractions": {
+            "target": "Package",
+            "version": "[2.0.0, )"
           },
           "StackExchange.Redis": {
             "target": "Package",

@@ -10,3 +10,15 @@ C:\Users\hpadmin\Desktop\TegEvents\TagEvents.RedisCache\obj\Debug\net6.0\TagEven
 C:\Users\hpadmin\Desktop\TegEvents\TagEvents.RedisCache\obj\Debug\net6.0\refint\TagEvents.RedisCache.dll
 C:\Users\hpadmin\Desktop\TegEvents\TagEvents.RedisCache\obj\Debug\net6.0\TagEvents.RedisCache.pdb
 C:\Users\hpadmin\Desktop\TegEvents\TagEvents.RedisCache\obj\Debug\net6.0\ref\TagEvents.RedisCache.dll
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\bin\Debug\net6.0\TagEvents.RedisCache.deps.json
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\bin\Debug\net6.0\TagEvents.RedisCache.dll
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\bin\Debug\net6.0\TagEvents.RedisCache.pdb
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\TagEvents.RedisCache.csproj.AssemblyReference.cache
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\TagEvents.RedisCache.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\TagEvents.RedisCache.AssemblyInfoInputs.cache
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\TagEvents.RedisCache.AssemblyInfo.cs
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\TagEvents.RedisCache.csproj.CoreCompileInputs.cache
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\TagEvents.RedisCache.dll
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\refint\TagEvents.RedisCache.dll
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\TagEvents.RedisCache.pdb
+C:\Users\hpadmin\Desktop\TegEvents\TegInterview\TagEvents.RedisCache\obj\Debug\net6.0\ref\TagEvents.RedisCache.dll

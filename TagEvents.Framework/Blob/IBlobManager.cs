@@ -3,6 +3,6 @@
     public interface IBlobManager<TEntity> : IManager
         where TEntity : class, IEntity
     {
-        Task<TEntity> GetListOfDataFromJsonUrl();
+        Task<TEntity> GetListOfData();
     }
 }

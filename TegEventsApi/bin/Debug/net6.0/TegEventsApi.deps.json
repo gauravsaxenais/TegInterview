@@ -1025,6 +1025,7 @@
       "TagEvents.RedisCache/1.0.0": {
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "2.0.0",
           "StackExchange.Redis": "2.7.4"
         },
         "runtime": {

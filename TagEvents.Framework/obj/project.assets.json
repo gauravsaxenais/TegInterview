@@ -332,11 +332,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.Framework\\TegEvents.Framework.csproj",
+      "projectUniqueName": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.Framework\\TegEvents.Framework.csproj",
       "projectName": "TegEvents.Framework",
-      "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.Framework\\TegEvents.Framework.csproj",
+      "projectPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.Framework\\TegEvents.Framework.csproj",
       "packagesPath": "C:\\Users\\hpadmin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.Framework\\obj\\",
+      "outputPath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TegInterview\\TagEvents.Framework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

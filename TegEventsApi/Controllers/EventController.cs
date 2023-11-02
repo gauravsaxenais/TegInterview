@@ -37,7 +37,7 @@ namespace TegEventsApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetAllEventsByVenue([Required, FromQuery] int venueId)
         {
-            IEnumerable<EventReadModel> eventsByVenue = await _queryManager.GetEventsByVenueIdAsync(_blobManager.GetListOfDataFromJsonUrl, venueId);
+            var eventsByVenue = await _queryManager.GetEventsByVenueIdAsync(_blobManager.GetListOfData, venueId);
             return StatusCode(StatusCodes.Status200OK, eventsByVenue);
         }
 
@@ -47,7 +47,7 @@ namespace TegEventsApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetAllEventsByDate([Required, FromQuery] DateTime startDate)
         {
-            var eventsByVenue = await _queryManager.GetEventsByStartDate(_blobManager.GetListOfDataFromJsonUrl, startDate);
+            var eventsByVenue = await _queryManager.GetEventsByStartDate(_blobManager.GetListOfData, startDate);
             return StatusCode(StatusCodes.Status200OK, eventsByVenue);
         }
 
@@ -57,7 +57,7 @@ namespace TegEventsApi.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> GetVenueInformation([Required, FromQuery] int venueId)
         {
-            var venues = await _venueQueryManager.GetVenueByVenueIdAsync(_blobManager.GetListOfDataFromJsonUrl, venueId);
+            var venues = await _venueQueryManager.GetVenueByVenueIdAsync(_blobManager.GetListOfData, venueId);
             return StatusCode(StatusCodes.Status200OK, venues.FirstOrDefault());
         }
     }

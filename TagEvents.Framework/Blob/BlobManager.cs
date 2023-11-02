@@ -11,7 +11,7 @@ namespace TegEvents.Framework.Blob
         : base(logger)
         { }
 
-        public async Task<TEntity> GetListOfDataFromJsonUrl()
+        public async Task<TEntity> GetListOfData()
         {
             var httpClient = new HttpClient();
             string jsonResponse;
@@ -31,7 +31,12 @@ namespace TegEvents.Framework.Blob
             }
             catch (HttpRequestException e)
             {
-                Logger.LogError(e.Message, GetListOfDataFromJsonUrl(), e);
+                Logger.LogError(e.Message, GetListOfData(), e);
+                throw;
+            }
+            catch (Exception e)
+            {
+                Logger.LogError(e.Message, GetListOfData(), e);
                 throw;
             }
         }
