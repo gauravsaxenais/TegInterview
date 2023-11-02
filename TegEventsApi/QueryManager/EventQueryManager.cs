@@ -24,12 +24,12 @@ namespace TegEventsApi.QueryManager
             return await GetByPredicateAsync(async () => await GetEvents(getlistOfEvents), x => x.VenueId == venueId);
         }
 
-        private async Task<List<Event>?> GetEvents(Func<Task<Root>> GetlistOfEvents)
+        private async Task<List<Event>?> GetEvents(Func<Task<Root>> GetListOfEvents)
         {
             Root? root;
             //try
             //{
-                root = await GetlistOfEvents();
+                root = await GetListOfEvents();
                 //await _redisCacheService.SetAsync("root", root);
             //}
             //catch (Exception)
