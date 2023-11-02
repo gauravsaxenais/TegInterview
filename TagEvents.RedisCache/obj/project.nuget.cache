@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "NPL04zeVK3jxgkW6+FPCFDt0ShwkQGlDAEPf7BDTQm8SJBs+0CRVMf0gihfjhh5hVJOI/P2wEjKNdP63fq2pOw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hpadmin\\Desktop\\TegEvents\\TagEvents.RedisCache\\TagEvents.RedisCache.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hpadmin\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\hpadmin\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.0\\microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\hpadmin\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+    "C:\\Users\\hpadmin\\.nuget\\packages\\pipelines.sockets.unofficial\\2.2.8\\pipelines.sockets.unofficial.2.2.8.nupkg.sha512",
+    "C:\\Users\\hpadmin\\.nuget\\packages\\stackexchange.redis\\2.7.4\\stackexchange.redis.2.7.4.nupkg.sha512",
+    "C:\\Users\\hpadmin\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512",
+    "C:\\Users\\hpadmin\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

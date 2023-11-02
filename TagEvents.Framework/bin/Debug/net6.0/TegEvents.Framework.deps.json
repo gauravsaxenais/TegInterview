@@ -1,0 +1,118 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TegEvents.Framework/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.7.205.21",
+          "AutoMapper": "12.0.1",
+          "Ensure.That": "10.1.0",
+          "Microsoft.Extensions.Logging.Abstractions": "7.0.1"
+        },
+        "runtime": {
+          "TegEvents.Framework.dll": {}
+        }
+      },
+      "AutoMapper/12.0.1": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.1.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.204.10": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.204.10"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.205.21": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.204.10"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.205.21"
+          }
+        }
+      },
+      "Ensure.That/10.1.0": {
+        "runtime": {
+          "lib/netstandard2.1/Ensure.That.dll": {
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "10.1.0.0"
+          }
+        }
+      },
+      "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.Extensions.Logging.Abstractions/7.0.1": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Extensions.Logging.Abstractions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.723.27404"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TegEvents.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutoMapper/12.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+      "path": "automapper/12.0.1",
+      "hashPath": "automapper.12.0.1.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.204.10": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wYTTmT2C8aik3AxQlOVTH2JpsEnprUCbmeImj04nv1bmfw/vhfh1egXX9/F4ptQF8RReMS4tWIS07csfFRG+Kg==",
+      "path": "awssdk.core/3.7.204.10",
+      "hashPath": "awssdk.core.3.7.204.10.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.205.21": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uy37CvVG+m3Ol0bpyd6pZI3tU/Py4DwRSdIunVzHFZaIkN1uwljytrdGj9Aft8MsXSSrm0I6rkWIyjeYLDztRw==",
+      "path": "awssdk.s3/3.7.205.21",
+      "hashPath": "awssdk.s3.3.7.205.21.nupkg.sha512"
+    },
+    "Ensure.That/10.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rzTMSs0lQnu0WsesvTjs/zDzqiZXb9r5dv+wFQcPg/iIZqXb5BzwpIWEwi8Q3HA0TS4ytRcY129aSek6IzuOmA==",
+      "path": "ensure.that/10.1.0",
+      "hashPath": "ensure.that.10.1.0.nupkg.sha512"
+    },
+    "Microsoft.CSharp/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Logging.Abstractions/7.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-pkeBFx0vqMW/A3aUVHh7MPu3WkBhaVlezhSZeb1c9XD0vUReYH1TLFSy5MxJgZfmz5LZzYoErMorlYZiwpOoNA==",
+      "path": "microsoft.extensions.logging.abstractions/7.0.1",
+      "hashPath": "microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512"
+    }
+  }
+}
